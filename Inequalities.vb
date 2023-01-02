@@ -92,9 +92,6 @@
         If (info.Text = "NaN< x <NaN") Then
             info.Text = "∄x∈R"
         End If
-        If (a.Text > 0) Then If (sign.Text = "<") Then info.Text = "∄x∈R"
-
-        If (a.Text < 0) Then If (sign.Text = ">") Then info.Text = "∄x∈R"
 
         n1.Text = b.Text * -1
 
